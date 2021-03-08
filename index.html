@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+	<html lang="en">
+	  <head>
+	    <title>Materlise css</title>
+	    <meta charset="UTF-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <!--Import Google Icon Font-->
+	    <link
+	      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	      rel="stylesheet"
+	    />
+
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      
+
+	    <!--Let browser know website is optimized for mobile-->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <!-- Compiled and minified CSS -->
+	    <link
+	      rel="stylesheet"
+	      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+	    />
+	    <link rel="preconnect" href="https://fonts.gstatic.com" />
+	    <link
+	      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap"
+	      rel="stylesheet"
+	    />
+	    <!-- Compiled and minified JavaScript -->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+	    <style>
+	      * {
+	        font-family: "Josefin Slab", serif;
+	      }
+	      section {
+          background: linear-gradient(rgb(75, 21, 30),rgb(0, 0, 0));
+	        width: max-width;
+	        margin: auto;
+	       
+	      }.skillbar {
+position:relative;
+display:block;
+margin-bottom:15px;
+width:100%;
+background:#eee;
+height:35px;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+-webkit-transition:0.4s linear;
+-moz-transition:0.4s linear;
+-ms-transition:0.4s linear;
+-o-transition:0.4s linear;
+transition:0.4s linear;
+-webkit-transition-property:width, background-color;
+-moz-transition-property:width, background-color;
+-ms-transition-property:width, background-color;
+-o-transition-property:width, background-color;
+transition-property:width, background-color;
+}
+.skillbar-title {
+position:absolute;
+top:0;
+left:0;
+font-weight:bold;
+font-size:25px;
+color:rgb(4, 3, 85);
+background:#6adcfa;
+-webkit-border-top-left-radius:3px;
+-webkit-border-bottom-left-radius:4px;
+-moz-border-radius-topleft:3px;
+-moz-border-radius-bottomleft:3px;
+border-top-left-radius:3px;
+border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+display:block;
+background:rgba(0, 0, 0, 0.1);
+padding:0 20px;
+height:35px;
+line-height:35px;
+-webkit-border-top-left-radius:3px;
+-webkit-border-bottom-left-radius:3px;
+-moz-border-radius-topleft:3px;
+-moz-border-radius-bottomleft:3px;
+border-top-left-radius:3px;
+border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+height:35px;
+width:0px;
+background:#6adcfa;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+position:absolute;
+right:10px;
+top:0;
+font-size:11px;
+height:35px;
+line-height:35px;
+color:#444;
+color:rgba(0, 0, 0, 0.4);
+}
+
+	    </style>
+	  </head>
+    <body>
+      <nav class="grey darken-4">
+        <div class="nav-wrapper container">
+          <a href="#!" class="brand-logo"><span style="font-weight: 800;font-size: 30px;" class=" red-text text-darken-3 ">Port</span><span>Folio</span></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">menu</i></a>
+          
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#aboutus">About-us</a></li>
+            <li><a href="#education">Educational</a></li>
+            <li><a href="#companyinfo">CompanyInfo</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </div>
+      </nav>
+  
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#aboutus">About-us</a></li>
+        <li><a href="#education">Educational</a></li>
+        <li><a href="#companyinfo">CompanyInfo</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+      <main class="max width">
+      <!---slider-->
+      <section class="banner">
+        <div class="carousel carousel-slider">
+          <a class="carousel-item" href="#one!"><img src="images/3.png"></a>
+          <a class="carousel-item" href="#two!"><img src="images/4.png"></a>
+          
+        </div>
+        </div>
+        
+    </section>
+    <!----about us-->
+    <section id="aboutus">
+      <h2 class="center-align blue-text">About Us</h2>
+      <div class="row">
+        <div class="col s4 m4 l4 offset-l4"><hr></div>  
+        </div>
+    
+        <div class="row">
+          <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel blue darken-1 z-depth-1">
+              <div class="row valign-wrapper">
+                <div class="col s2">
+                  <img src="images/5.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s10">
+                  <span class=" lime-text text-accent-2">
+                    5+ years’ experience in Web/UI/UX design and front-end/Web development. <br/>
+                        •	Extensive experience in Adobe Products:-<br/>
+                        1.	Adobe Illustrator.
+                        2.	Adobe XD.
+                        3.	Adobe Dreamweaver.
+                        4.	Adobe Photoshop.<br/>
+                        •	HTML4 & 5, CSS2 & 3, Materialize CSS, Material-UI, Bootstrap-4, JavaScript, JQuery, Ajax, Mobile & SEO.<br/>
+                        •	CMS : WordPress, Joomla.<br/>
+                        •	Technology: React-JS.<br/>
+                        •	Digital Marketing<br/>
+                        1.	SEO.
+                        2.	SMM.
+                        3.	E-Mail Marketing.
+                        4.	Google Analytics.
+                        5.	YouTube Marketing.<br/>
+                        •	Technically sound with Basic of Programmable Logic Controller / Basic of Computer Numerical Controller.<br/>
+                        •	Good communication skills; collaboration with proficiency at grasping new technical concepts quickly & utilize the same in a productive manner.
+                    
+                        
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+      
+    
+        </div>
+    
+        
+    
+      </div>
+    </section>
+    <!--------Educational Background-->
+    <section id="education">
+        <h2 class="center-align blue-text">Educational Background</h2>
+        <div class="row">
+          <div class="col s4 m4 l4 offset-l4"><hr></div>  
+          </div>
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img class="responsive-img" src="images/6.png">
+              <span  class="card-title blue-text text-darken-2">B.Tech</span>
+              <a data-target="modal3" class="btn-floating halfway-fab waves-effect waves-light red btn modal-trigger "><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p>
+                B.Tech (IT) - Institute of Engineering and Technology,CSJM University,Kanpur.<br/>
+                Department-Computer Science and Engineering.<br/>
+                Date of Completion-2010 to 2014.<br/>
+                Percentage-71.2%.<br/>
+                Final Year Project-SEO(Search Engine Optimization).<br/>
+                
+
+
+                </p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img class="responsive-img" src="images/7.png" height="300"><br/>
+              <span class="card-title blue-text text-darken-2">Intermediate</span>
+              <a data-target="modal2" class="btn-floating halfway-fab waves-effect waves-light red btn modal-trigger "><i class="material-icons">add</i></a>
+
+            </div>
+            <div class="card-content">
+              <p>Intermediate - Bihar National College.<br/>
+                Department-Science<br/>
+                Date of Completion-2006.<br/>
+                Percentage-61.2%.<br/>
+                City:Patna<br/>
+              
+              
+              </p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img class="responsive-img" src="images/8.png"><br/>
+              <span class="card-title card-title blue-text text-darken-2">High School</span>
+              <a data-target="modal1" class="btn-floating halfway-fab waves-effect waves-light red btn modal-trigger "><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p>High School - B.D.Public School.<br/>
+                Date of Completion-2004.<br/>
+                Percentage-47%.<br/>
+                City:Patna<br/>
+              </br>
+                </p>
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+         <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>High School</h4>
+      <p>High School - B.D.Public School.<br/>
+        Date of Completion-2004.<br/>
+        Percentage-47%.<br/>
+        City:Patna<br/>
+      </br>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  <!-- Moda 2 Structure -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Intermediate</h4>
+      <p>Intermediate - Bihar National College.<br/>
+        Department-Science<br/>
+        Date of Completion-2006.<br/>
+        Percentage-61.2%.<br/>
+        City:Patna<br/>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  <!-- Moda 3 Structure -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <h4><B-Tech></B-Tech></h4>
+      <p>
+        B.Tech (C.S) - Institute of Engineering and Technology,CSJM University,Kanpur.<br/>
+        Department-Computer Science and Engineering.<br/>
+        Date of Completion-2010 to 2014.<br/>
+        Percentage-71.2%.<br/>
+        Final Year Project-SEO(Search Engine Optimization).<br/>
+        
+
+
+        </p>
+      
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+
+    </section>
+    <!---Company Information-->
+    <section id="companyinfo">
+      <h2 class="center-align blue-text">Company Information</h2>
+      <div class="row">
+        <div class="col s4 m4 l4 offset-l4"><hr></div>  
+       
+  
+        </div>
+        <div class="row">
+          <div class="col s12 l12 ">
+            <table class="responsive-table">
+              <thead>
+                <tr class="white-text">
+                    <th> Company Name</th>
+                    <th>Duration</th>
+                    <th>Contact No</th>
+                    <th>Company Adress</th>
+                    <th>Job Responsibilities</th>
+                </tr>
+              </thead>
+      
+              <tbody>
+                <tr>
+                  <td class="white-text ">Software Reserach Center</td>
+                  <td class="white-text">1st,Oct-Present</td>
+                  <td class="white-text">8789378405</td>
+                  <td class="white-text">07,Commercial Building Children Park,S.K.Puri,Boring Road,Patna-800001</td>
+                  <td class="white-text">Take ownership of Design Projects.<br/>
+                    Design page layouts and templates.<br/>
+                    Produce design assets for use in social media and marketing channels.<br/>
+                    Develop and maintain consistent branding.<br/>
+                    Collaborate with UX,Marketing,Engineering and Other teams.<br/>
+                    Utilize data and Analytics in making design decisions.<br/>
+                    Work with Front -end -web developers to deploy designs.<br/>
+                    Digital Marketing & E-Mail Marketing.<br/>
+                    Creating UI/UX Design through Adobe Creative Cloud Products.<br/>
+                  </td>
+                  
+                </tr>
+              
+              
+              </tbody>
+              
+            </table>
+            
+
+          </div>
+          
+        </div>
+        
+  
+        
+        </section>
+        <!---Company Information-->
+    <section id="skills">
+      <h2 class="center-align blue-text">Skills</h2>
+      <div class="row">
+        <div class="col s4 m4 l4 offset-l4"><hr></div>  
+        
+  
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class=" col s12 m6 l8 offset-l2">
+              <div class="skillbar clearfix " data-percent="85%">
+                <div class="skillbar-title" style="background: #88cd2a;"><span>HTML5</span></div>
+                <div class="skillbar-bar" style="background: #88cd2a;"></div>
+                <div style="font-size: 25px;" class="skill-bar-percent blue-text text-darken-2">85%</div>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col s12 m6 l8 offset-l2">
+              <div class="skillbar clearfix " data-percent="70%">
+                <div class="skillbar-title" style="background: #88cd2a;"><span>Adobe Products</span></div>
+                <div class="skillbar-bar" style="background: #88cd2a;"></div>
+                <div style="font-size: 25px;" class="skill-bar-percent blue-text text-darken-2">70%</div>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col s12 m6 l8 offset-l2">
+              <div class="skillbar clearfix " data-percent="90%">
+                <div class="skillbar-title" style="background: #88cd2a;"><span>Digital Marketing</span></div>
+                <div class="skillbar-bar" style="background: #88cd2a;"></div>
+                <div style="font-size: 25px;" class="skill-bar-percent blue-text text-darken-2">90%</div>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col s12 m6 l8 offset-l2">
+              <div class="skillbar clearfix " data-percent="65%">
+                <div class="skillbar-title" style="background: #88cd2a;"><span>JavaScript</span></div>
+                <div class="skillbar-bar" style="background: #88cd2a;"></div>
+                <div style="font-size: 25px;" class="skill-bar-percent blue-text text-darken-2">65%</div>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col s12 m6 l8 offset-l2">
+              <div class="skillbar clearfix " data-percent="55%">
+                <div class="skillbar-title" style="background: #88cd2a;"><span>React-JS</span></div>
+                <div class="skillbar-bar" style="background: #88cd2a;"></div>
+                <div style="font-size: 25px;" class="skill-bar-percent blue-text text-darken-2">55%</div>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col s12 m6 l8 offset-l2">
+              <div class="skillbar clearfix " data-percent="80%">
+                <div class="skillbar-title" style="background: #88cd2a;"><span>Materialize-css</span></div>
+                <div class="skillbar-bar" style="background: #88cd2a;"></div>
+                <div style="font-size: 25px;" class="skill-bar-percent blue-text text-darken-2">80%</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        </section>
+      </main>
+        <section grey darken-4>
+          <footer class="page-footer grey darken-4">
+            <div class="container  ">
+              <div class="row">
+                <div class="col m6 l6 s12">
+                  <h5 class="white-text">About-us</h5>
+                  <p class="grey-text text-lighten-4">To obtain a challenging postion in a progressive organization,that gives me scope to apply my Knowledge and skills and be a member of a team that dynamically works towards success and growth of the organization.<br/>Navneet Vaibhav<br/>front-end developer.<br/>2014-2021.</p>
+                </div>
+                
+                <div class="col l6 s12">
+                  <h5 class="white-text">Contact Form</h5>
+                  <ul>
+                    
+                    <label><b>Name</b></label>
+                    <input type="text" name="name" required>
+                    <label><b>Last Name</b></label>
+                    <input type="text" name="lname" required>
+                    <label><b>Email</b></label>
+                    <input type="email" name="email" required> 
+                    <button class="red waves-light blue-text" type="submit">submit</button>   
+                          
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2014 Copyright Text
+               <a href="#"><i  class="material-icons grey-text text-lighten-4 right"  >local_phone mail pin_drop</i></a>
+                 
+              </div>
+            </div>
+          </footer>
+        </section>
+        
+      
+    <script>
+      $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.slider').slider();
+      $('.modal').modal();
+      
+      $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true,
+    
+  });
+  jQuery('.skillbar').each(function(){
+    jQuery(this).find('.skillbar-bar').animate({
+    width:jQuery(this).attr('data-percent')
+    },6000);
+    });
+     
+ 
+    });
+    </script>
+    
+    
+    </body>
+ 
+  </html>
+  
